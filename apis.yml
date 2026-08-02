@@ -1,7 +1,24 @@
 aid: tyffon
 name: Tyffon
-description: Tyffon is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tyffon Inc. is a Japanese immersive entertainment company that combines
+  creativity and technology to deliver memorable XR experiences. The studio builds
+  VR, AR, and mixed-reality attractions - including Corridor, Kaiju Haven VR, Floria,
+  and Island Mirrorge MR - operates the Tyffonium attraction brand, licenses its XR
+  content to entertainment venues across Japan, and released the GARA AR platform
+  app. A Techstars portfolio company, Tyffon publishes no public developer portal
+  or API surface as of July 2026.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://tyffon.com/wp-content/themes/CorporateSite2021/wp-theme/images/favicon.png
 url: https://raw.githubusercontent.com/api-evangelist/tyffon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Entertainment
+- Virtual Reality
+- Augmented Reality
+- Mixed Reality
+- Gaming
+- Japan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/tyffon-domain-security.yml
 - type: Website
   url: https://tyffon.com/
+- type: Blog
+  url: https://tyffon.com/news
+- type: TermsOfService
+  url: https://tyffon.com/terms/
+- type: PrivacyPolicy
+  url: https://tyffon.com/privacy/
+- type: LLMsTxt
+  url: llms/tyffon-llms.txt
+- type: Twitter
+  url: https://twitter.com/Tyffon
+- type: Facebook
+  url: https://www.facebook.com/tyffon
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
